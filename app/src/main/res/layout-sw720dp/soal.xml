@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backu">
+
+    <ImageView
+        android:id="@+id/benar"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:src="@drawable/benar"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/nil"
+        android:layout_toLeftOf="@+id/salah"
+        android:layout_toStartOf="@+id/salah" />
+
+    <ImageView
+        android:id="@+id/soala"
+        android:layout_width="1150dp"
+        android:layout_height="170dp"
+        android:src="@drawable/soal11"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/nil" />
+
+    <ImageView
+        android:id="@+id/salah"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:visibility="invisible"
+        android:src="@drawable/salah"
+        android:layout_alignBottom="@+id/soala"
+        android:layout_alignRight="@+id/soala"
+        android:layout_alignEnd="@+id/soala" />
+
+    <ImageView
+        android:id="@+id/piliha"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:onClick="piliha"
+        android:src="@drawable/pesawat"
+        android:layout_alignTop="@+id/pilihb"
+        android:layout_alignLeft="@+id/soala"
+        android:layout_alignStart="@+id/soala" />
+
+    <ImageView
+        android:id="@+id/pilihb"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:onClick="pilihb"
+        android:src="@drawable/roket"
+        android:layout_alignTop="@+id/pilihc"
+        android:layout_toLeftOf="@+id/pilihc"
+        android:layout_toStartOf="@+id/pilihc"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp" />
+
+    <ImageView
+        android:id="@+id/pilihc"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:onClick="pilihc"
+        android:src="@drawable/mobil"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/soala"
+        android:layout_toLeftOf="@+id/pilihd"
+        android:layout_toStartOf="@+id/pilihd"
+        android:layout_marginRight="87dp"
+        android:layout_marginEnd="87dp" />
+
+    <ImageView
+        android:id="@+id/pilihd"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:onClick="pilihd"
+        android:src="@drawable/kereta"
+        android:layout_alignTop="@+id/pilihc"
+        android:layout_alignRight="@+id/soala"
+        android:layout_alignEnd="@+id/soala" />
+
+    <TextView
+        android:id="@+id/nil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/pilihb"
+        android:layout_alignStart="@+id/pilihb" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="Nilai :"
+        android:layout_alignLeft="@+id/soala"
+        android:layout_alignStart="@+id/soala"
+        android:layout_above="@+id/soala" />
+
+</RelativeLayout>

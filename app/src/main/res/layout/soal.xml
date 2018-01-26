@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backu">
+
+
+
+    <ImageView
+        android:id="@+id/benar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/benar"
+        android:visibility="invisible"
+        android:layout_toRightOf="@id/nil" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/soala"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:src="@drawable/soal11"
+        android:layout_below="@+id/benar"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/salah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nil"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/benar"
+        android:layout_toRightOf="@+id/benar"
+        android:src="@drawable/salah"
+        android:visibility="invisible" />
+    <LinearLayout
+        android:layout_marginBottom="75dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:id="@+id/piliha"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:onClick="piliha"
+            android:src="@drawable/pesawat"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/pilihb"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:onClick="pilihb"
+            android:src="@drawable/roket"
+            android:layout_marginRight="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/pilihc"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+
+            android:onClick="pilihc"
+            android:src="@drawable/mobil" />
+
+        <ImageView
+            android:id="@+id/pilihd"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:onClick="pilihd"
+            android:src="@drawable/kereta"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="Nilai :"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentStart="true" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:screenOrientation="landscape"
+    android:weightSum="1"
+
+    tools:context="com.example.vien.transportasi.MainActivity">
+
+
+    <ImageButton
+
+        android:id="@+id/imagemulai"
+        android:layout_width="200dp"
+        android:layout_height="190dp"
+        android:background="@drawable/mulai"
+        android:layout_marginBottom="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imagekuis"
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        android:background="@drawable/kuis1"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_alignTop="@+id/imagemulai"
+        android:layout_toRightOf="@+id/imagemulai"
+        android:layout_toEndOf="@+id/imagemulai" />
+
+    <ImageButton
+        android:id="@+id/imageinformasi"
+        android:layout_width="130dp"
+        android:layout_height="210dp"
+        android:background="@drawable/informasi1"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_alignBottom="@+id/imagekuis"
+        android:layout_toLeftOf="@+id/imagekeluar"
+        android:layout_toStartOf="@+id/imagekeluar" />
+
+    <ImageButton
+        android:id="@+id/imagekeluar"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:background="@drawable/keluar1"
+        android:layout_alignBottom="@+id/imageinformasi"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

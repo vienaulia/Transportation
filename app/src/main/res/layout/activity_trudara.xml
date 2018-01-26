@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backcloud"
+    android:screenOrientation="landscape"
+    tools:context="com.example.vien.transportasi.TrudaraActivity">
+
+    <RelativeLayout
+        android:layout_width="576dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/scrollView2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/imageambalon"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:background="@drawable/balon" />
+
+        <ImageButton
+        android:id="@+id/imagecapung"
+        android:layout_width="119dp"
+        android:layout_height="92dp"
+        android:background="@drawable/capung" />
+    <ImageButton
+        android:id="@+id/imagehelicopter"
+        android:layout_width="119dp"
+        android:layout_height="92dp"
+        android:background="@drawable/helicopter" />
+    <ImageButton
+        android:id="@+id/imagejet"
+        android:layout_width="119dp"
+        android:layout_height="92dp"
+        android:background="@drawable/jet" />
+    <ImageButton
+        android:id="@+id/imageroket"
+        android:layout_width="92dp"
+        android:layout_height="98dp"
+        android:background="@drawable/roket" />
+    <ImageButton
+        android:id="@+id/imagezep"
+        android:layout_width="119dp"
+        android:layout_height="80dp"
+        android:background="@drawable/zep" />
+    <ImageButton
+        android:id="@+id/imagepesawat"
+        android:layout_width="119dp"
+        android:layout_height="92dp"
+        android:background="@drawable/pesawat" />
+    </LinearLayout>
+    </ScrollView>
+
+        <ImageView
+            android:id="@+id/imagebalon1"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/balon1"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imagebackud"
+            android:layout_toStartOf="@+id/imagebackud" />
+        <ImageButton
+            android:id="@+id/imagebackud"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/back"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

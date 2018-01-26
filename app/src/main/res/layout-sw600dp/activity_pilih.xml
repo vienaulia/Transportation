@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg2"
+    android:screenOrientation="landscape"
+    tools:context="com.example.vien.transportasi.PilihActivity">
+    <ImageButton
+        android:id="@+id/imagedarat"
+        android:layout_width="330dp"
+        android:layout_height="260dp"
+        android:background="@drawable/darat"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageButton
+        android:id="@+id/imagelaut"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:background="@drawable/laut"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_alignTop="@+id/imagedarat"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/imagedarat" />
+
+    <ImageButton
+        android:id="@+id/imageudara"
+        android:layout_width="273dp"
+        android:layout_height="200dp"
+        android:background="@drawable/udara"
+        tools:layout_editor_absoluteX="389dp"
+        tools:layout_editor_absoluteY="102dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp" />
+    <ImageButton
+        android:id="@+id/imagebackud"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

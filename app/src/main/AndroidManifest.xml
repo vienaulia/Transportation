@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vien.transportasi">
+<supports-screens
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:smallScreens="true"
+    android:xlargeScreens="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PilihActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TdaratActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TlautActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TrudaraActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Latihan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".InformasiActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PbalonActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PcapungActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PhelikopterActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PjetActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PpesawatActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ProketActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PzepActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PdayungActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PkapaluapActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PlayarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PperahumActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PpesiarActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PselamActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PambulansActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PangkotActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PbajajActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PbecakActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PbisActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PdelmanActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PkeretaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PmobilActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PmotorActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PsepedaActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PsktActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".TaxiActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PtrukActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Latihan2"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan3"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan4"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan5"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan6"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan7"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan8"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan9"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Latihan10"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".Hasil"
+            android:screenOrientation="landscape">
+
+        </activity>
+
+
+    </application>
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"
+        />
+</manifest>

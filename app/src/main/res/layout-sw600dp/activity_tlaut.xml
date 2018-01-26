@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backwater"
+    android:screenOrientation="landscape"
+    tools:context="com.example.vien.transportasi.TlautActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/relativeLayout3">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imagedayung"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/dayung" />
+    <ImageButton
+        android:id="@+id/imagekapaluap"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/kapaluap" />
+    <ImageButton
+        android:id="@+id/imagelayar"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/layar" />
+    <ImageButton
+        android:id="@+id/imagepesiar"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pesiar" />
+    <ImageButton
+        android:id="@+id/imageselam"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/selam" />
+    <ImageButton
+        android:id="@+id/imageperahum"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:background="@drawable/perahum" />
+    </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imagedayung1"
+        android:layout_width="380dp"
+        android:layout_height="330dp"
+        app:srcCompat="@drawable/dayung1"
+        android:layout_marginRight="93dp"
+        android:layout_marginEnd="93dp"
+        android:layout_above="@+id/imagebackud"
+        android:layout_toLeftOf="@+id/imagebackud"
+        android:layout_toStartOf="@+id/imagebackud" />
+    <ImageButton
+        android:id="@+id/imagebackud"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+
